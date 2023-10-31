@@ -13,3 +13,27 @@ a {
   text-decoration: none;
 }
 
+/* header */
+.header .container {
+  width: 1330px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .container .menu,
+.header .container .actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+/* .header .container .actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+} */
+
