@@ -97,3 +97,115 @@ body {
   font-weight: 400;
   cursor: pointer;
 }
+
+/* Design */
+.design .container .text-content {
+  text-align: center;
+  margin: 80px 0;
+}
+
+.design .container .text-content .title {
+  font-size: 43px;
+  font-weight: 400;
+}
+
+.design .container .text-content .subtitle {
+  font-size: 14px;
+  color: #a0a0a0;
+  margin: 23px 0 26px;
+}
+
+.design .container .text-content .btn {
+  background: 0;
+  border: 0;
+  outline: 0;
+  color: #000000;
+  font-size: 13px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.design .container .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.design .container .wrapper .item {
+  text-align: center;
+}
+
+.design .container .wrapper .item img {
+  width: 658px;
+  height: 441px;
+}
+
+.design .container .wrapper .item h3 {
+  font-size: 27px;
+  font-weight: 400;
+  margin: 48px 0 23px;
+}
+
+.design .container .wrapper .item .btn {
+  background: 0;
+  border: 0;
+  outline: 0;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* Products */
+.products {
+  padding: 100px 0;
+}
+
+.products .container .text-content {
+  text-align: center;
+}
+
+.products .container .text-content .title {
+  font-size: 33px;
+  font-weight: 400;
+}
+
+.products .container .text-content .subtitle {
+  font-size: 15px;
+  color: #a0a0a0;
+  margin: 16px 0 40px;
+}
+
+.products .container .text-content .dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.products .container .text-content .dots li {
+  width: 7px;
+  height: 7px;
+  background: #000000;
+}
+
+.products .container .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.products .container .wrapper .card .image-block img {
+  width: 310px;
+  height: 434px;
+}
+
+.products .container .wrapper .card .name {
+  font-size: 13px;
+  color: #a0a0a0;
+  margin: 22px 0 5px;
+}
+
+.products .container .wrapper .card .price{
+  font-size: 12px;
+  color: #a0a0a0;
+}
