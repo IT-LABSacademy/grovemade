@@ -290,11 +290,79 @@ body {
 }
 
 /* Inspires */
-.inspires .container{
+.inspires .container {
   background: #9aa8b1;
   color: #ffffff;
   text-align: center;
   padding: 120px 0;
 }
 
+/* Footer */
+.footer {
+  margin-top: 40px;
+  background: #f9f9f9;
+  padding-bottom: 28px;
+}
 
+.footer .container .up {
+  width: 82px;
+  height: 82px;
+  background: #000000;
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+}
+
+.footer .container .content {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.footer .container .content .links li {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.footer .container .content .newsletter h3 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.footer .container .content .newsletter p {
+  font-size: 14px;
+  color: #a0a0a0;
+  width: 323px;
+  margin: 23px 0 92px;
+}
+
+.footer .container .content .newsletter .line {
+  width: 282px;
+  height: 1px;
+  background: #000000;
+}
+
+.footer .container .copyrights {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 37px;
+}
+
+.footer .container .copyrights li {
+  font-size: 13px;
+  font-weight: 400;
+  color: #707a7f;
+  cursor: pointer;
+}
+
+.footer .container .copyrights li:hover{
+  color: #000000;
+}
